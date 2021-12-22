@@ -1,0 +1,57 @@
+h1 {
+    text-align:center;
+    color: gold;
+    background: white;
+    opacity: .5;
+}
+body {
+    margin: 0px;
+    font-family: Georgia,verdana,serif;
+    font-size: 14px;
+    background-image: url(../images/wood2.jpg);
+}
+#nav  {
+    
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+    background-color: #000;
+    border-radius: 5px;
+}
+#nav ul {
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 5px;
+}
+#nav ul li {
+    display: inline;
+}
+#nav ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: #fff;
+    background-color: #000;
+}  
+#nav ul li a:hover {
+    color: #000;
+    background-color: #fff;
+} 
+p {
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer {
+    color: white;
+    background-color:#000;
+    margin-top: 250px;
+    margin-bottom:10px;
+    height: 90px; 
+    clear:both;
+    text-align: center;
+    padding: 15px;
+    font-size: 140%;
+}

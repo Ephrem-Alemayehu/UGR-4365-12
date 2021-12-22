@@ -1,0 +1,89 @@
+h1 {
+    text-align:center;
+    color: gold;
+    background: white;
+    opacity: .5;
+}
+body {
+    margin: 0px;
+    font-family: Georgia,verdana,serif;
+    font-size: 14px;
+    background-image: url(../images/wood2.jpg);
+}
+#nav  {
+    
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+    background-color: #000;
+    border-radius: 5px;
+}
+#nav ul {
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 5px;
+}
+#nav ul li {
+    display: inline;
+}
+#nav ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: #fff;
+    background-color: #000;
+}  
+#nav ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}* 
+.content-table {
+    border-collapse: collapse;
+    /*margin: 25px 0;*/
+    margin:1% 0;
+    font-size: 0.9em;
+    /*min-width: 400px;*/
+    min-width:50%;
+    /*border-radius: 5px 5px 0 0;*/
+    border-radius:3% 3% 0 0;
+    overflow:hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+.content-table thead tr {
+    background-color:#009879;
+    color:white;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th,
+.content-table td{
+   /* padding: 12px 15px;*/
+   padding: 3% 4%;
+}
+.content-table tbody tr {
+    border-bottom: 1px solid black;
+}
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+p {
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer {
+    color: white;
+    background-color:#000;
+    margin-top: 250px;
+    margin-bottom:10px;
+    height: 90px; 
+    clear:both;
+    text-align: center;
+    padding: 15px;
+    font-size: 140%;
+}

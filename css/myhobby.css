@@ -1,0 +1,117 @@
+h1 {
+    text-align:center;
+    color: gold;
+    background: white;
+    opacity: .5;
+}
+body {
+    margin: 0px;
+    font-family: Georgia,verdana,serif;
+    font-size: 14px;
+    background-image: url(../images/wood2.jpg);
+}
+#nav  {
+    max-width: 100%;
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+    background-color: #000;
+    border-radius: 5px;
+}
+#nav ul {
+    max-width: 100%;
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 5px;
+}
+#nav ul li {
+    display: inline;
+}
+#nav ul li a {
+    max-width: 100%;
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: #fff;
+    background-color: #000;
+}  
+#nav ul li a:hover {
+    color: #000;
+    background-color: #fff;
+} 
+.movie {
+    float:left;
+    padding: 15px;
+    margin-left:90px;
+    max-width:100%;
+}
+.book {
+    float:right;
+    padding: 15px;
+    margin-right:90px;
+    max-width:100%;
+}
+.game {
+    margin-left: 290px;
+    margin-right: auto;
+    max-width:100%;
+}
+p {
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer {
+    color: white;
+    background-color:#000;
+    margin-top: 250px;
+    margin-bottom:10px;
+    height: 90px; 
+    clear:both;
+    text-align: center;
+    padding: 15px;
+    font-size: 140%;
+}
+@media screen and (max-width:600px){
+    .game{
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .book{
+        display:block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .movie{
+        display:block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:420px){
+    .game{
+        width:100px;
+        
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .book{
+        width:100px;
+       
+        display:block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .movie{
+        width:100px;
+        display:block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+}
+

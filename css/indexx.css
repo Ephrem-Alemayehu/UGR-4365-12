@@ -1,0 +1,221 @@
+h1 {
+    max-width: 100%;
+    color: gold;
+    background: white;
+    opacity: .5;
+    
+}
+body {
+    max-width:100%;
+    margin: 0px;
+    font-family: Georgia,verdana,serif;
+    font-size: 100%;
+    background-image: url(../images/wood2.jpg);
+}
+header {
+    max-width:100%;
+    background-color:orange;
+    /*margin: 10px;*/
+    margin:1%;
+    height: 90px;
+    border-radius: 5%;
+}
+p {
+    max-width:100%;
+    font-size: 110%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    line-height: 150%;
+}
+#nav  {
+    max-width:100%; 
+    /*padding: 5px;*/
+    padding: .5%;
+    list-style-type: none;
+    text-align: center;
+    background-color: #000;
+    border-radius: 1%;
+}
+#nav ul {
+    max-width:100%;
+    /*padding: 5px;*/
+    padding: .5%;
+    list-style-type: none;
+    text-align: center;
+    background-color: #000;
+    /*margin: 10px;*/
+    margin:.5%;
+    border-radius: 5px;
+}
+#nav ul li {
+    display:flex;
+    display: inline;
+}
+#nav ul li a {
+    max-width:100%;
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: #fff;
+    background-color: #000;
+}  
+#nav ul li a:hover {
+    color: #000;
+    background-color: #fff;
+} 
+main {
+    /**display: flex;
+    justify-content: center;**/
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+   color:black;
+    margin-right: 20%;
+    margin-left: 20%;
+    /*border-radius: 15px;*/
+    border-radius:5%;
+   /** padding: 15px;**/
+   padding: 1%;
+    font-size: 110%;
+}
+.ef {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    float:left;
+    /*margin: 0 12px;*/
+    margin: 0 1%;
+    border-radius: 20px;
+}
+/**footer {
+    display: flex;
+    background-color:orange;
+    margin: 10px;
+    height: 90px;
+    border-radius: 15px;
+}**/
+footer {
+    color: white;
+    background-color:#000;
+    margin-top: 250px;
+    margin-bottom:10px;
+    height: 90px; 
+    clear:both;
+    text-align: center;
+    padding: 15px;
+    font-size: 140%;
+}
+h3 {
+    max-width: 100%;
+    font-size: 200%;
+    text-align: center;
+    color: blue;
+    font-family:"Century Gothic", "Gill sans", Arial, sans-serif;
+    margin: 0px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+footer ul {
+    color:white;
+    font-size:70%;
+    text-align:left;
+    padding: 1px;
+    list-style-type: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+#footer ul li a {
+    color:#fff;
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: #efe5d0;
+    background-color: #5c755e;
+}  
+footer ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+@media screen and (max-width:400px){
+    .ef{
+       float:none;
+    }
+}
+
+/**@media (max-width: 600px) {
+.sidebar{
+    display: none;
+}
+}**/
+/*@media only screen and (max-width:700px) {
+    #nav ul {
+        padding: 10px;
+        width: 100%;
+        background: black;
+        position: absolute;
+        top:85px;
+        right: 0;
+        z-index: 1;
+    }
+    #nav ul li {
+        display: block;
+        margin-top: -5px;
+        margin-bottom: 5px;
+    }
+    #nav ul li a {
+        color: #fff;
+    }
+    .ef{
+        margin-top:100px;
+    }
+    body{
+        
+        margin-top: 100px;
+    }
+    h3 {
+        margin-bottom: 100px;
+    }
+}*/
+/**@media screen and (max-width:400px){
+    h3 {
+        font-size: 25px;
+    }
+    .ef {
+        width:150px;
+    }
+    /*body {
+        font-size:10px;
+    }
+    p {
+        margin-right: 250px;
+        float:left;
+        display:block;
+    }
+    h1 {
+        text-align:left;
+        display:block;
+        float:left;
+    }
+}**/
+/*@media screen and (max-width:600px){
+    h3 {
+        font-size: 25px;
+    }
+    body {
+      width:100%;
+    }
+    p {
+        margin-right: 250px;
+        float:left;
+        display:block;
+    }
+    h1 {
+        text-align:left;
+        display:block;
+        float:left;
+    }
+    .ef {
+        width:55%;
+}
+
+}
